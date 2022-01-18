@@ -10,7 +10,7 @@
 }
 
 body{
-    background: black;
+    background:#292c37;
     color: white;
      /*font-weight especifica o peso ou a intensidade da fonte (ex.: negrito)*/
     font-weight: 500;
@@ -29,7 +29,7 @@ main{
 }
 
 main h1{
-    color:#7394fd;
+    color:#6e9167;
     font-size: 3rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -96,7 +96,7 @@ main form label span{
 
 main form input{
     /*cor dos blocos de resposta*/
-    background: #161923;
+    background:#242739;
     width: 300px;
     height: 50px;
     padding: 0 0.5rem;
@@ -105,7 +105,7 @@ main form input{
     outline:none;
     color: rgba(166,166,166);
     font-size: 1rem;
-    border:1px solid #040B18;
+    border:1px solid #586875;
     border-radius: 8px;
 }
 
@@ -115,7 +115,7 @@ main form input[type = "submit"]{
     margin-top: 4rem;
     border: none;
     border-radius: 32px;
-    background:#7394fd;
+    background:#6e9167;
     color: white;
     font-size:1.1rem;
     transition: all .3s ease-in-out;
@@ -144,7 +144,7 @@ section.images .circle {
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, #E8CBC0, #636FA4);
+    background: linear-gradient(45deg, #E8CBC0, #6e9167);
     /*recorta a imagem e deixa meia lua mas pode ser qualquer forma*/
     clip-path: circle(40% at right 80%);
     /*z-index é a prorpiedade de camadas onde decidimos qual vai se sobrepor*/
