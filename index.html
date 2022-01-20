@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sign Up From</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
 </head>
 <body>
     <main>
@@ -26,7 +28,7 @@
             <span>OR</span>
         </div>
 
-        <form action="">
+        <form action="troca_senha.php" method="POST" id="FormSenha" name="FormSenha" onsubmit="return validarSenha();">
             <label for="name">
                 <span>Name</span>
                 <input type="text" name="name" id="name">
@@ -39,15 +41,17 @@
 
             <label for="password">
                 <span>Password</span>
-                <input type="password" name="password" id="password" minlength="8" required>  
+                <input type="password" name="password" id="password" minlength="8" >  
+                <!-- required -->
             </label>
 
             <label for="password">
-                <span> Confirm Password:</span>
-                <input type="password" name="password" id="Cpassword" minlength="8" required>  
+                <span> Confirm Password</span>
+                <input type="password" name="Confirm_password" id="password" minlength="8" > 
+                 <!-- required -->
             </label>
 
-            <input type="submit" value="Sing Up">
+            <input type="submit" name= "button" value="Sing Up">
         </form>
     </main>
     <section class="images">
@@ -56,5 +60,4 @@
     </section>
 
 </body>
-<script src="script.js"></script>
 </html>

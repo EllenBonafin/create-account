@@ -10,7 +10,8 @@
 }
 
 body{
-    background:#292c37;
+    
+    background: linear-gradient(#292c37, #51647a);
     color: white;
      /*font-weight especifica o peso ou a intensidade da fonte (ex.: negrito)*/
     font-weight: 500;

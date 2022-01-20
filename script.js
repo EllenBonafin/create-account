@@ -1,11 +1,10 @@
+//alert simples para avisar se a senha esta igual ou n 
 function validarSenha(){
-   password = document.getElementsByName('password').value;
-   Confirm_password = document.getElementsByName('Cpassword').value;
-
-   if(password!= Confirm_password) {
-        Confirm_password.setCustomValidity("Senhas diferentes!");
-        
-       return false; 
-   }
-   return true;
+    password = document.FormSenha.password.value;
+    Confirm_password = document.FormSenha.Confirm_password.value;
+    if (password != Confirm_password){ 
+         alert("SENHAS DIFERENTES!\\nFAVOR DIGITAR SENHAS IGUAIS");
+         return false;
+    }
+    return true;
 }
