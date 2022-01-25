@@ -3,7 +3,7 @@ function validarSenha(){
     password = document.FormSenha.password.value;
     Confirm_password = document.FormSenha.Confirm_password.value;
     if (password != Confirm_password){ 
-         alert("SENHAS DIFERENTES!\\nFAVOR DIGITAR SENHAS IGUAIS");
+         alert("SENHAS DIFERENTES!FAVOR DIGITAR SENHAS IGUAIS");
          return false;
     }
     return true;
